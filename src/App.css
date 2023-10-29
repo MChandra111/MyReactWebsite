@@ -1,38 +1,116 @@
-.App {
+body {
+  font-family: 'quicksand';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: rgba(47,100,90,1);
+  background: -moz-linear-gradient(
+    left, 
+    rgba(47,100,90,1) 0%, 
+    rgba(111,161,123,1) 100%
+  );
+  background: -webkit-gradient(
+    left top, 
+    right top, 
+    color-stop(0%, rgba(47,100,90,1)), 
+    color-stop(100%, rgba(111,161,123,1))
+  );
+  background: -webkit-linear-gradient(
+    left, 
+    rgba(47,100,90,1) 0%, 
+    rgba(111,161,123,1) 100%
+  );
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="btn"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #fff;
+  border: 0px solid #fff;
+  color: #0645AD;
+  padding: 5px 0px;
+}
+
+input[type="btn"]:hover {
+  background: #fff;
+  color: black;
+}
+
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #00d2be;
+  border: 1px solid #00d2be;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+  color: black;
+}
+
+.signupbtn{
+  display:  flex;
+  justify-content: center;
+}
+
+.btn{
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #fff;
+  border: none;
+  color: #0645AD;
+  padding: 5px 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn:hover{
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-container {
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-form {
+  background-color: white;
+  padding: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  gap: 8px;
+  margin: 10px;
 }
