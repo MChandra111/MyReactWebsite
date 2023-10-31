@@ -1,18 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion"
-
-const icon = {
-  hidden: {
-    pathLength: 0,
-    fill: "rgba(255, 255, 255, 0)"
-  },
-  visible: {
-    pathLength: 1,
-    fill: "rgba(255, 255, 255, 1)"
-  }
-}
+import YourComponent from '../Videos';
 
 function Music() {
+
   return (
     <div>
       <motion.div
@@ -37,6 +28,9 @@ function Music() {
         <span className="ChannelName">
           <a href="https://www.youtube.com/@DiosMusicDump" target="_blank" rel="noopener noreferrer">Dio's Music Dump</a>
         </span>
+        
+        <YourComponent />
+
       </motion.div>
     </div>
   );

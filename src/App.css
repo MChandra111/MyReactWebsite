@@ -18,8 +18,8 @@ body {
   );
   background: -webkit-linear-gradient(
     bottom, 
-    rgb(0, 0, 0) 0%, 
-    rgb(17, 17, 17) 100%
+    rgb(10, 10, 10) 0%, 
+    rgb(24, 24, 24) 100%
   );
   overflow: hidden;
 }
@@ -116,6 +116,7 @@ input[type="submit"]:hover {
 .YTLogo {
   padding-left: 20px;
   padding-top: 20px;
+  text-decoration: none;
 }
 
 .ChannelName {
@@ -133,4 +134,23 @@ a {
 }
 a:hover {
   text-decoration: underline;
+  text-decoration-thickness: 7px;
+}
+
+/* Apply these styles to the container that has the overflow and needs a scrollbar */
+.container-with-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.container-with-scrollbar::-webkit-scrollbar-track {
+  background: #000000; /* Track color */
+}
+
+.container-with-scrollbar::-webkit-scrollbar-thumb {
+  background: #00ffa6; /* Thumb color */
+  border-radius: 5px; /* Roundness of the thumb */
+}
+
+.container-with-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #00ff95; /* Thumb color on hover */
 }
