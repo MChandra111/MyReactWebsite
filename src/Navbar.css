@@ -1,0 +1,21 @@
+.navbar {
+    background: black;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: orange;
+  }

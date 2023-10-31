@@ -1,9 +1,11 @@
 import React from "react"; 
 import { BrowserRouter, Route, Link } from "react-router-dom"; 
-function Navbar() {   
+import "./Navbar.css";
+
+function Navbar() {
     return (
-        <nav>
-            <ul>         
+        <nav className="navbar">
+            <ul className="navbar">         
                 <li>           
                     <Link to="/">Home</Link>         
                 </li>         
@@ -13,7 +15,7 @@ function Navbar() {
                 <li>           
                     <Link to="/About">About</Link>         
                 </li>       
-            </ul>     
+            </ul>   
         </nav>   
     ); 
 } 

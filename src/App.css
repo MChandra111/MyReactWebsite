@@ -1,28 +1,27 @@
 body {
-  font-family: 'quicksand';
+  font-family: 'Avantgarde';
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   gap: 20px;
   height: 100vh;
+  color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background: rgba(47,100,90,1);
+  background: rgb(255, 255, 255);
   background: -moz-linear-gradient(
     left, 
-    rgba(47,100,90,1) 0%, 
-    rgba(111,161,123,1) 100%
+    rgb(0, 0, 0) 0%, 
+    rgb(255, 255, 255) 100%
   );
   background: -webkit-gradient(
     left top, 
     right top, 
-    color-stop(0%, rgba(47,100,90,1)), 
-    color-stop(100%, rgba(111,161,123,1))
+    color-stop(0%, rgb(227, 0, 0)), 
+    color-stop(100%, rgb(0, 0, 0))
   );
   background: -webkit-linear-gradient(
-    left, 
-    rgba(47,100,90,1) 0%, 
-    rgba(111,161,123,1) 100%
+    bottom, 
+    rgb(0, 0, 0) 0%, 
+    rgb(17, 17, 17) 100%
   );
 }
 

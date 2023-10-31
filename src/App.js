@@ -3,11 +3,12 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import ReactDOM from "react-dom";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 import Layout from "./pages/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Blogs from "./pages/Blogs.jsx";
+import Navbar from "./Navbar.jsx";
 import "./App.css";
 
 function App() {
@@ -16,17 +17,18 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <Routes>         
+      <div>
+        <Routes>
           <Route path="/" element={<Layout />}>           
           <Route index element={<Home />} />           
-          <Route path="blogs" element={<Blogs />} />           
-          <Route path="about" element={<About />} />           
-          </Route>       
-        </Routes>     
-      </BrowserRouter>   
+          <Route path="Blogs" element={<Blogs />} />           
+          <Route path="About" element={<About />} />           
+          </Route>
+        </Routes>      
+      </div>
+      </BrowserRouter>  
     </div>
   );
-
 }
 
 const rootElement = document.getElementById("root");
