@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
-import axios from 'axios';
 
 const Videos = () => {
   /*const [videos, setVideos] = useState([]);
@@ -69,7 +68,7 @@ const Videos = () => {
           }}
         >
           <iframe
-            title={'Video ${index}'}
+            title={'Video'}
             width="100%"
             height="200"
             src={url}

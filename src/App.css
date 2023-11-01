@@ -206,6 +206,10 @@ a:hover {
   padding-right: 35px;
 }
 
+.repo_link:hover {
+  text-decoration: underline;
+}
+
 .repo_id{
   text-align: center;
   margin: 0;
@@ -245,4 +249,8 @@ a:hover {
 
 .GitLink:hover {
   text-decoration: underline;
+}
+
+.AboutPage {
+  text-align: center;
 }
