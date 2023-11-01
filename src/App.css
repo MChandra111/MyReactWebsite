@@ -3,12 +3,12 @@ body {
   flex-direction: column;
   gap: 20px;
   height: 100vh;
-  color: white;
+  color: rgb(11, 11, 69);
   background: rgb(255, 255, 255);
   background: -moz-linear-gradient(
     left, 
     rgb(0, 0, 0) 0%, 
-    rgb(255, 255, 255) 100%
+    rgb(139, 139, 139) 100%
   );
   background: -webkit-gradient(
     left top, 
@@ -18,8 +18,8 @@ body {
   );
   background: -webkit-linear-gradient(
     bottom, 
-    rgb(10, 10, 10) 0%, 
-    rgb(24, 24, 24) 100%
+    rgb(215, 222, 221) 0%, 
+    rgb(230, 230, 230) 100%
   );
   overflow: hidden;
 }
@@ -131,11 +131,11 @@ input[type="submit"]:hover {
   padding-left: 20px;
   position: relative;
   bottom: 18px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 a {
-  color: white;
+  color: rgb(11, 11, 69);
   text-decoration: none;
 }
 a:hover {
@@ -157,7 +157,7 @@ a:hover {
 }
 
 .container-with-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #00ff95; /* Thumb color on hover */
+  background: #2a5543; /* Thumb color on hover */
 }
 
 .grid-container {
@@ -177,13 +177,13 @@ a:hover {
   padding: 10px;
   cursor: pointer;
   overflow: hidden;
-  background-color: #f5f5f5;
+  background-color: #000000;
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 20px;
   transition: max-height 0.4s ease;
   max-height: 100px;
-  color:#000000;
+  color:rgb(0, 172, 240);
 }
 
 .repo-box.expanded {
@@ -215,6 +215,10 @@ a:hover {
   margin: 0;
   font-size: 20px;
   padding-left: 35px;
+}
+
+.repo_id:hover{
+  text-decoration: underline;
 }
 
 .pushed-at-date{

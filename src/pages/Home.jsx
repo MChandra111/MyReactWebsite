@@ -17,7 +17,7 @@ function Home() {
 
           }}
         />
-        <a href= "https://github.com/MChandra111">
+        <a href= "https://github.com/MChandra111" target="_blank" rel="noopener noreferrer">
           <span className='GitLink'>MChandra111</span>
         </a>
       </p>
