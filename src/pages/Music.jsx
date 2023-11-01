@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
-import YourComponent from '../Videos';
+import Videos from '../Videos.js';
+import YTLogo from '../assets/images/YTLogo.png';
 
 function Music() {
 
@@ -15,11 +16,12 @@ function Music() {
           opacity:1,
           x: 0, 
         }}
-        transition={{ duration: 2, delay: 0.1 }}
+        transition={{ duration: 1, delay: 0.1 }}
       >
         <img
           className="YTLogo"
-          src={"https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png"}
+          src={YTLogo}
+          alt="logo"
           style={{
             width: 150,
             height: 106
@@ -29,7 +31,7 @@ function Music() {
           <a href="https://www.youtube.com/@DiosMusicDump" target="_blank" rel="noopener noreferrer">Dio's Music Dump</a>
         </span>
         
-        <YourComponent />
+        <Videos />
 
       </motion.div>
     </div>

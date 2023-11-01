@@ -119,6 +119,12 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
+.GTLogo {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
 .ChannelName {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 100px;
@@ -152,4 +158,91 @@ a:hover {
 
 .container-with-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #00ff95; /* Thumb color on hover */
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between each box */
+  padding: 0 20px; /* Padding on either side */
+  justify-content: center; /* Center the grid */
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.repo-box {
+  flex: 0 0 calc(50% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  transition: max-height 0.4s ease;
+  max-height: 100px;
+  color:#000000;
+}
+
+.repo-box.expanded {
+  max-height: 300px;
+  margin-bottom: 0;
+}
+
+.repo_description {
+  text-align: center;
+  margin-bottom: -15px;
+  color:#009687;
+  padding-left: 40px;
+}
+
+.repo_link {
+  position: relative;
+  text-align: center;
+  color:#009687;
+  display: block;
+  padding-right: 35px;
+}
+
+.repo_id{
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  padding-left: 35px;
+}
+
+.pushed-at-date{
+  float: right;
+  padding-top: 8px;
+  font-size: 10px;
+}
+
+.HomePage h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.HomePage p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 80px;
+}
+
+.HomePage p {
+  padding-bottom: 30px;
+}
+
+.GitLink {
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.GitLink:hover {
+  text-decoration: underline;
 }

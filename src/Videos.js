@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
 import axios from 'axios';
 
-const YourComponent = () => {
+const Videos = () => {
   /*const [videos, setVideos] = useState([]);
 
   useEffect(() => {
@@ -84,4 +84,4 @@ const YourComponent = () => {
   );
 };
 
-export default YourComponent;
+export default Videos;
