@@ -13,7 +13,6 @@ import "./App.css";
 
 function App() {
   // React States
-
   return (
     <div className="app">
       <BrowserRouter>
@@ -26,7 +25,7 @@ function App() {
           </Route>
         </Routes>      
       </div>
-      </BrowserRouter>  
+      </BrowserRouter>
     </div>
   );
 }

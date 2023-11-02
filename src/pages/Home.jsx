@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import GitRepos from '../gitRepos';
 import GTLogo from "../assets/images/GTLogo.png";
 

@@ -18,8 +18,8 @@ body {
   );
   background: -webkit-linear-gradient(
     bottom, 
-    rgb(215, 222, 221) 0%, 
-    rgb(230, 230, 230) 100%
+    rgb(255, 255, 255) 0%, 
+    rgb(168, 168, 168) 100%
   );
   overflow: hidden;
 }
@@ -152,12 +152,12 @@ a:hover {
 }
 
 .container-with-scrollbar::-webkit-scrollbar-thumb {
-  background: #00ffa6; /* Thumb color */
+  background: rgb(0, 38, 142); /* Thumb color */
   border-radius: 5px; /* Roundness of the thumb */
 }
 
 .container-with-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #2a5543; /* Thumb color on hover */
+  background: rgb(0, 120, 145); /* Thumb color on hover */
 }
 
 .grid-container {
@@ -177,13 +177,13 @@ a:hover {
   padding: 10px;
   cursor: pointer;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #444444;
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 20px;
   transition: max-height 0.4s ease;
   max-height: 100px;
-  color:rgb(0, 172, 240);
+  color:rgb(228, 228, 228);
 }
 
 .repo-box.expanded {
@@ -194,14 +194,14 @@ a:hover {
 .repo_description {
   text-align: center;
   margin-bottom: -15px;
-  color:#009687;
+  color:rgb(180, 180, 180);
   padding-left: 40px;
 }
 
 .repo_link {
   position: relative;
   text-align: center;
-  color:#009687;
+  color:rgb(180, 180, 180);
   display: block;
   padding-right: 35px;
 }
@@ -255,6 +255,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.AboutPage {
+.ResumeHeading {
   text-align: center;
 }
